@@ -45,7 +45,6 @@ public class Race {
                 winner = contestants[i];
             }
         }
-        System.out.println("Race is over! The winner is " + winner.getName() + " with a total distance of " + maxDistance + " units");    
+        System.out.println("Race is over! The winner is " + winner.getName() + " with a total distance of " + maxDistance + " units");
     }
 }
-

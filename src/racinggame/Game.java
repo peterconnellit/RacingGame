@@ -5,7 +5,8 @@
 package racinggame;
 
 /**
- *A
+ * A
+ *
  * @author peter
  */
 import java.util.HashMap;
@@ -30,7 +31,7 @@ public class Game {
             }
         }
     }
-    
+
     public Map<Player, Integer> getScores() {
         return scores;
     }

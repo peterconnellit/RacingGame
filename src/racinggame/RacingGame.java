@@ -14,8 +14,8 @@ public class RacingGame {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
-                Athlete athlete1 = new Athlete("bob");
+
+        Athlete athlete1 = new Athlete("bob");
         Athlete athlete2 = new Athlete("ted");
         Athlete athlete3 = new Athlete("fred");
 
@@ -39,7 +39,6 @@ public class RacingGame {
         race.race();
         Athlete winner = race.getWinner();
         game.updateScore(winner);
-        System.out.println("The winning betting player is: " + game.getWinner().getName() + " with " + game.getScores().get(game.getWinner()) + " correct guesses");
+        System.out.println("The winning betting player is: " + game.getWinner().getName() + " with " + game.getScores().get(game.getWinner()) + " correct guess");
     }
 }
-

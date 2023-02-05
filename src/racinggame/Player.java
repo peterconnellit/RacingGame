@@ -9,6 +9,7 @@ package racinggame;
  * @author peter
  */
 public class Player {
+
     private String name;
     private Athlete guess;
 
